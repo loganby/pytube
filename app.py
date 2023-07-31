@@ -7,8 +7,8 @@ from pytube import Playlist
 #https://pypi.org/project/pytube/
 print('PyTube playlist download')
 
-playlist = Playlist("https://www.youtube.com/playlist?list=PL_wl2s89QANvoYBull1jx7pqNaiC6n8xl")
-localFolder = r"C:\Users\gobyers\OneDrive\DJ"
+playlist = Playlist("https://www.youtube.com/playlist?list=PLkTWwRz9wG-Mm1lpyDefj8w0pYsaY3ByS")
+localFolder = r"C:\mp3"
 
 #Output the song count.  If this is 0, then perhaps your YT playlist is private.
 print('Songs in playlist : ', len(playlist))
